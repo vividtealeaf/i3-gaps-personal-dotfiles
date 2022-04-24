@@ -1,0 +1,29 @@
+
+#clone repo
+git clone https://github.com/vividtealeaf/i3-gaps-personal-dotfiles.git
+
+#enter repo directory
+cd i3-gaps-personal-dotfiles
+
+#copy compton files to .config location
+cp picom.conf ~/.config/picom
+
+#copy rofi files to .config location
+cp config.rasi ~/.config/rofi
+
+#copy polybar config files to .config location
+cp config.ini ~/.config/polybar
+
+#copy i3 config files to .config location
+cp i3-config ~/.config/i3
+
+#enter i3 .config file location
+cd ~/.config/i3
+
+#rename i3-config file to appropriate name
+rename i3-config config *
+
+#start compton in the background
+picom -b
+
+echo "Installation complete.Please refresh i3wm.If any errors occur delete all files mentioned in this script"
