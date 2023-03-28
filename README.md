@@ -1,6 +1,7 @@
 # i3-gaps personal config files
 
-personal config files which uses i3-gaps and compton for rounded effect  
+Personal config files which uses i3-gaps and compton for rounded effect.
+i no longer use these dotfiles so they will not be updated.
 
 ![desktop-screenshot-two](https://user-images.githubusercontent.com/98353191/164958668-88bbaba2-6025-425f-8f4c-85605434dfb1.png)
 
